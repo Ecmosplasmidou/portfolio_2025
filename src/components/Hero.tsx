@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
                 {t('contactMe')}
               </a>
               <a
-                href="#"
+                href="https://www.dropbox.com/scl/fi/cqzwouzzwznde2k8cd5z8/Copie-de-MAHADAWOO-Cassam-3.pdf?rlkey=t1b8ptp00b6db7b21suykohxs&st=xbq11r69&raw=1"
                 className="px-6 py-3 border border-primary-500 text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 font-medium rounded-lg transition-colors text-center"
               >
                 {t('downloadCV')}
