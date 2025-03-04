@@ -74,7 +74,7 @@ export const translations = {
     // Hero
     greeting: "Hello, I'm",
     role: "Full Stack Developer",
-    heroDescription: " have developed many types of full-stack from well known Works applications to Ecommerce shops.",
+    heroDescription: "I have developed many types of full-stack from well known Works applications to Ecommerce shops.",
     downloadCV: "Download CV",
     contactMe: "Contact Me",
     
