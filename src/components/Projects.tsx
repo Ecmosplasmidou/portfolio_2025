@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Github, Globe, Instagram } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { projects } from '../data/projects';
@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 
 const Projects: React.FC = () => {
   const { language, t } = useLanguage();
+  const navigate = useNavigate();
 
   return (
     <section id="projects" className="py-20 bg-white dark:bg-gray-900">
@@ -26,13 +27,17 @@ const Projects: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <Link key={project.id} to={`/projects/${project.id}`} className="block">
+            <div
+              key={project.id}
+              onClick={() => navigate(`/projects/${project.id}`)}
+              className="block cursor-pointer"
+            >
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
+                className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
               >
                 <div className="h-48 overflow-hidden">
                   <img
@@ -69,6 +74,7 @@ const Projects: React.FC = () => {
                         href={project.githubLink}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()} // Empêche le clic de naviguer vers le projet
                         className="flex items-center text-sm text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
                       >
                         <Github size={16} className="mr-1" />
@@ -80,6 +86,7 @@ const Projects: React.FC = () => {
                         href={project.websiteLink}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
                         className="flex items-center text-sm text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
                       >
                         <Globe size={16} className="mr-1" />
@@ -91,6 +98,7 @@ const Projects: React.FC = () => {
                         href={project.socialLink}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
                         className="flex items-center text-sm text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
                       >
                         <Instagram size={16} className="mr-1" />
@@ -100,7 +108,7 @@ const Projects: React.FC = () => {
                   </div>
                 </div>
               </motion.div>
-            </Link>
+            </div>
           ))}
         </div>
       </div>

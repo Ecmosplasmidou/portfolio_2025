@@ -27,18 +27,25 @@ const Contact: React.FC = () => {
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
     setError('');
+
+    console.log("Tentative d'envoi avec:", data);
+    console.log("Service ID:", import.meta.env.VITE_EMAILJS_SERVICE_ID);
+    console.log("Template ID:", import.meta.env.VITE_EMAILJS_TEMPLATE_ID);
+    console.log("User ID:", import.meta.env.VITE_EMAILJS_USER_ID);
     
     try {
       const response = await emailjs.send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID!,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID!,
+        import.meta.env.VITE_EMAILJS_SERVICE_ID!,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID!,
         {
           name: data.name,
           email: data.email,
           message: data.message,
         },
-        process.env.REACT_APP_EMAILJS_USER_ID!
+        import.meta.env.VITE_EMAILJS_USER_ID!
       );
+
+      console.log("Réponse EmailJS:", response);
   
       if (response.status === 200) {
         setIsSuccess(true);
