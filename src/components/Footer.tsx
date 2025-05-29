@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             <Github size={20} />
           </a>
           <a
-            href="https://github.com/Ecmosplasmidou"
+            href="https://www.linkedin.com/in/cassam-mahadawoo/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-primary-500 transition-colors"
