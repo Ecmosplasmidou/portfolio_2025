@@ -114,18 +114,6 @@ const Contact: React.FC = () => {
                     <p className="text-gray-700 dark:text-gray-300">+33 6 95 10 47 42</p>
                   </div>
                 </div>
-
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 bg-primary-100 dark:bg-primary-900/30 p-3 rounded-full">
-                    <MapPin size={20} className="text-primary-500" />
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="text-sm font-medium text-gray-900 dark:text-white">
-                      Location
-                    </h4>
-                    <p className="text-gray-700 dark:text-gray-300">Toulouse, France</p>
-                  </div>
-                </div>
               </div>
             </div>
           </motion.div>
