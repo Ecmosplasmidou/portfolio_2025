@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
         <div className="space-x-4 mb-4 flex justify-center">
           <a
-            href="#"
+            href="https://github.com/Ecmosplasmidou"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-primary-500 transition-colors"
@@ -27,14 +27,6 @@ const Footer: React.FC = () => {
             aria-label="LinkedIn"
           >
             <Linkedin size={20} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/cassam-mahadawoo/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-primary-500 transition-colors"
-            aria-label="Twitter"
-          >
           </a>
         </div>
         <p className="text-gray-400 text-sm">

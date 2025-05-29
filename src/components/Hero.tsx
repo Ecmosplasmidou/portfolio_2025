@@ -39,6 +39,7 @@ const Hero: React.FC = () => {
               <a
                 href="https://www.dropbox.com/scl/fi/nwhf0l4924jr8q7vwnkyf/cv_mahadawoo_cassam_mds_dev_fs_2.0.pdf?rlkey=cidl1o0bl81c5f86fymtnz135&st=9jdgfzb3&raw=1"
                 className="px-6 py-3 border border-primary-500 text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 font-medium rounded-lg transition-colors text-center"
+                target="_blank"
               >
                 {t('downloadCV')}
               </a>
