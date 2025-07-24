@@ -18,6 +18,21 @@ export const projects: Project[] = [
   {
     id: 2,
     title: {
+      fr: "PhotsShare",
+      en: "PhotosShare"
+    },
+    description: {
+      fr: "PhotosShare est un réseau social de partage de photos, codé avec Angular 18 et TypeScript, inspiré par Instagram. Il permet aux utilisateurs de créer des comptes, de publier des photos et d'interagir avec les publications d'autres.",
+      en: "PhotosShare is a photo-sharing social network, coded with Angular 18 and TypeScript, inspired by Instagram. It allows users to create accounts, publish photos, and interact with other users' posts."
+    },
+    image: "https://www.dropbox.com/scl/fi/7koi15hd02i9vxew3hq5y/capture_photosshare.png?rlkey=akuw2t88ed7erbardw20oppbw&st=5vsn2441&raw=1",
+    technologies: ["Angular", "TypeScript", "Firebase", "SCSS"],
+    githubLink: "https://github.com/Ecmosplasmidou/PhotosShare",
+    websiteLink: "https://snapphotoshare.netlify.app/"
+  },
+  {
+    id: 3,
+    title: {
       fr: "Ecmosgotchi",
       en: "Ecmosgotchi"
     },
@@ -31,7 +46,7 @@ export const projects: Project[] = [
     websiteLink: "https://ecmosgotchi-tamagotchi-by-ecmosdev.netlify.app/"
   },
   {
-    id: 3,
+    id: 4,
     title: {
       fr: "Hafeze Cuisine",
       en: "Hafeze Cuisine"
@@ -45,7 +60,7 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Ecmosplasmidou/hafeze_cuisine",
   },
   {
-    id: 4,
+    id: 5,
     title: {
       fr: "Trendy Paris",
       en: "Trendy Paris"
@@ -59,7 +74,7 @@ export const projects: Project[] = [
     socialLink: "https://www.instagram.com/trendypofficiel/",
   },
   {
-    id: 5,
+    id: 6,
     title: {
       fr: "Linkedin Scrapper",
       en: "Linkedin Scrapper"
@@ -71,5 +86,5 @@ export const projects: Project[] = [
     image: "https://www.dropbox.com/scl/fi/qzkkqzn5nqn2ih76x34r6/DALL-E-2025-03-02-11.26.44-A-modern-sleek-Python-logo-with-a-tech-inspired-design.-The-logo-features-the-iconic-Python-snake-in-a-minimalist-geometric-style-with-blue-and-yell.webp?rlkey=mqw4g1wj4omhuar8oar780wi8&st=97k6n95s&raw=1",
     technologies: ["Python"],
     githubLink: "https://github.com/Ecmosplasmidou/linkedin_scrapper/tree/main",
-  }
+  },
 ];
