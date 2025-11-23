@@ -87,4 +87,18 @@ export const projects: Project[] = [
     technologies: ["Python"],
     githubLink: "https://github.com/Ecmosplasmidou/linkedin_scrapper/tree/main",
   },
+  {
+  id: 7,
+  title: {
+    fr: "Xylecho",
+    en: "Xylecho"
+  },
+  description: {
+    fr: "Xylecho conçoit et installe des solutions acoustiques, alliant performance, design et expertise technique pour créer des environnements plus calmes et agréables.",
+    en: "Xylecho designs and installs acoustic solutions, combining performance, design, and technical expertise to create quieter and more pleasant environments."
+  },
+  image: "https://www.dropbox.com/scl/fi/18aj9ydnuw3mkigkfgky8/screen_xylecho_portfolio.png?rlkey=1ctep5q05nfc4mg4xhij8rfux&st=rdyotymn&raw=1",
+  technologies: ["Webflow", "JavaScript"],
+  websiteLink: "https://xylecho.com/"
+  },
 ];
