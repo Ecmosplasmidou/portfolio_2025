@@ -116,7 +116,8 @@ export const projects: Project[] = [
   },
   image: templierdrivre_img,
   technologies: ["React", "Express" ,"firebase", "Tailwind", "CSS", "Hubspot"],
-  githubLink: "https://github.com/Ecmosplasmidou/TemplierDriver"
+  githubLink: "https://github.com/Ecmosplasmidou/TemplierDriver",
+  websiteLink: "https://www.templierdriver.com/"
   },
     {
   id: 9,
