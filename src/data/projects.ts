@@ -2,10 +2,41 @@ import { Project } from '../types';
 
 import templierdrivre_img from '../img/frontpage_templier-driver.png'
 import driveLog_img from '../img/frontpage_drive_log.png'
+import evutech_img from '../img/Capture_evutech.png'
 
 export const projects: Project[] = [
-  {
+    {
     id: 1,
+    title: {
+      fr: "E-vutech",
+      en: "E-vutech"
+    },
+    description: {
+      fr: "E-VUTECH est une plateforme web développée avec React et Firebase dédiée à la réservation de formations à la sécurité routière pour véhicules utilitaires (VUL). Les entreprises peuvent configurer leurs sessions sur mesure, sélectionner des créneaux via un calendrier dynamique et gérer leurs listes de participants en temps réel. Le back-office administrateur permet un suivi précis des quotas de session et la validation automatisée des dossiers, démontrant une maîtrise des architectures Single Page Application (SPA) et de la gestion de bases de données NoSQL.",
+      en: "E-VUTECH is a web platform developed with React and Firebase, dedicated to booking road safety training sessions for light commercial vehicles (LCVs). Businesses can customize their training sessions, select slots via a dynamic calendar, and manage participant lists in real time. The admin back-office enables precise monitoring of session quotas and automated document validation, demonstrating a mastery of Single Page Application (SPA) architectures and NoSQL database management."
+    },
+    image: evutech_img,
+    technologies: ["React", "JavaScript", "Tailwind", "Firebase"],
+    websiteLink: "https://e-vutech.fr/",
+    githubLink: "https://github.com/Ecmosplasmidou/E-vutech",
+  },
+  {
+  id: 2,
+  title: {
+    fr: "Templier-driver",
+    en: "Templier-driver"
+  },
+  description: {
+    fr: "Templier Driver propose une interface connectée à Shopify, alliant un espace membre sécurisé et un système de badges de fidélité, conçus pour valoriser chaque palier d'achat par l'attribution de grades exclusifs.",
+    en: "Templier Driver offers a Shopify-integrated interface, blending a secure member portal with a loyalty badge system designed to reward purchase milestones through exclusive rank progression."
+  },
+  image: templierdrivre_img,
+  technologies: ["React", "Express" ,"firebase", "Tailwind", "CSS", "Hubspot"],
+  githubLink: "https://github.com/Ecmosplasmidou/TemplierDriver",
+  websiteLink: "https://www.templierdriver.com/"
+  },
+  {
+    id: 3,
     title: {
       fr: "Olympic Ticket Hub",
       en: "Olympic Ticket Hub"
@@ -19,9 +50,9 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Ecmosplasmidou/site_jo_finale",
   },
   {
-    id: 2,
+    id: 4,
     title: {
-      fr: "PhotsShare",
+      fr: "PhotosShare",
       en: "PhotosShare"
     },
     description: {
@@ -34,22 +65,7 @@ export const projects: Project[] = [
     websiteLink: "https://snapphotoshare.netlify.app/"
   },
   {
-    id: 3,
-    title: {
-      fr: "Ecmosgotchi",
-      en: "Ecmosgotchi"
-    },
-    description: {
-      fr: "Ecmosgotchi était mon tout premier projet, créé en utilisant HTML, CSS et JavaScript. C'est un tamagotchi virtuel où vous en prenez soin en le nourrissant, en jouant, pour le rendre heureux et le garder en vie le plus longtemps possible. Ce projet m'a aidé à apprendre les bases du développement web et a suscité ma passion pour le codage.",
-      en: "Ecmosgotchi was my very first project, created using HTML, CSS, and JavaScript. It is a virtual tamagotchi where you take care of your pet by feeding it, playing games, and keeping it happy. This project helped me learn the fundamentals of web development and sparked my passion for coding."
-    },
-    image: "https://www.dropbox.com/scl/fi/hpcsvagogbhipzn6bip6l/jobit.png?rlkey=vo9kpszvu5jlcvkfrg2y3quh6&st=u2c2axqv&raw=1",
-    technologies: ["HTML", "CSS", "JavaScript", "Netlify"],
-    githubLink: "https://github.com/Ecmosplasmidou/Tamagochi",
-    websiteLink: "https://ecmosgotchi-tamagotchi-by-ecmosdev.netlify.app/"
-  },
-  {
-    id: 4,
+    id: 5,
     title: {
       fr: "Hafeze Cuisine",
       en: "Hafeze Cuisine"
@@ -61,20 +77,6 @@ export const projects: Project[] = [
     image: "https://www.dropbox.com/scl/fi/fl561smweog1pe4k9ba62/tripguide.png?rlkey=i25dt8lizg0und83pgqcwqnf0&st=39eirk7m&raw=1",
     technologies: ["Flask", "Bootstrap", "JavaScript", "SQLite"],
     githubLink: "https://github.com/Ecmosplasmidou/hafeze_cuisine",
-  },
-  {
-    id: 5,
-    title: {
-      fr: "Trendy Paris",
-      en: "Trendy Paris"
-    },
-    description: {
-      fr: "Trendy Paris était un site de e-commerce sur Shopify axé sur le prêt-à-porter. La boutique présentait une sélection de vêtements tendance. Lancée pour offrir une mode de qualité et accessible, elle a fonctionné avec succès jusqu'en décembre 2023.",
-      en: "Trendy Paris was a Shopify-based e-commerce project focused on ready-to-wear fashion. The store showcased a selection of trendy apparel, embodying the essence of style. Launched to deliver quality and accessible, it operated successfully until December 2023."
-    },
-    image: "https://www.dropbox.com/scl/fi/k62hqaantg5garwqg725x/trendyparis.png?rlkey=xvliiy0fxt8li66ab2ozm4upt&st=1o07vule&raw=1",
-    technologies: ["Shopify", "JavaScript", "HTML", "CSS"],
-    socialLink: "https://www.instagram.com/trendypofficiel/",
   },
   {
     id: 6,
@@ -106,21 +108,6 @@ export const projects: Project[] = [
   },
   {
   id: 8,
-  title: {
-    fr: "Templier-driver",
-    en: "Templier-driver"
-  },
-  description: {
-    fr: "Templier Driver propose une interface connectée à Shopify, alliant un espace membre sécurisé et un système de badges de fidélité, conçus pour valoriser chaque palier d'achat par l'attribution de grades exclusifs.",
-    en: "Templier Driver offers a Shopify-integrated interface, blending a secure member portal with a loyalty badge system designed to reward purchase milestones through exclusive rank progression."
-  },
-  image: templierdrivre_img,
-  technologies: ["React", "Express" ,"firebase", "Tailwind", "CSS", "Hubspot"],
-  githubLink: "https://github.com/Ecmosplasmidou/TemplierDriver",
-  websiteLink: "https://www.templierdriver.com/"
-  },
-    {
-  id: 9,
   title: {
     fr: "Drive_log",
     en: "Drive_log"

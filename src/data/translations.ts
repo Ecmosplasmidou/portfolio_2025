@@ -21,7 +21,9 @@ export const translations = {
     aboutDescription: "Développeur Full Stack passionné par la création d'applications web, l'IA et l'UX design. J'aime résoudre des problèmes complexes et transformer des idées en produits fonctionnels. Je m'efforce de créer des solutions élégantes et performantes.",
     
     // Skills
-    skillsTitle: "Mes compétences",
+    skillsTitle1: "Stack ",
+    skillsTitle2: "Technique",
+    skillsSubTitle : "Une sélection d'outils et de technologies que j'utilise pour transformer des idées en produits numériques performants.",
     languages: "Langages",
     frameworks: "Frameworks",
     databases: "Bases de données",
@@ -29,14 +31,23 @@ export const translations = {
     aiTools: "Outils IA",
     
     // Projects
-    projectsTitle: "Mes projets",
+    projectsTitle1: "Mes",
+    projectsTitle2: "Projets",
+    projectsSubTitle : "Une immersion dans mes dernières réalisations, mêlant design moderne et logique back-end robuste.",
     viewProject: "Voir le projet",
     viewGithub: "Voir sur GitHub",
     viewWebsite: "Visiter le site",
     viewSocial: "Voir sur Instagram",
+    viewmore : "Voir tous les projets",
+    viewless : "Voir moins",
+
+    //ProjectDetails
+    projectDetailChallenge: "Ce projet a été conçu avec une attention particulière portée à l'expérience utilisateur et à l'optimisation des performances. L'architecture repose sur des technologies modernes pour garantir scalabilité et maintenabilité.",
+    backButton: "Retour en arriére",
     
     // Contact
-    contactTitle: "Me contacter",
+    contactTitle1: "Parlons de votre ",
+    contactTitle2: "Projet",
     contactDescription: "Vous avez un projet en tête ? N'hésitez pas à me contacter pour en discuter.",
     nameLabel: "Nom",
     emailLabel: "Email",
@@ -83,7 +94,9 @@ export const translations = {
     aboutDescription: "Full Stack Developer passionate about creating innovative web  applications. I enjoy solving complex problems and turning ideas into functional products. I strive to create elegant and high-performance solutions.",
     
     // Skills
-    skillsTitle: "My Skills",
+    skillsTitle1: "Tech ",
+    skillsTitle2: "Stack",
+    skillsSubTitle: "A selection of tools and technologies I use to transform ideas into high-performance digital products.",
     languages: "Languages",
     frameworks: "Frameworks",
     databases: "Databases",
@@ -91,13 +104,22 @@ export const translations = {
     aiTools: "AI Tools",
     
     // Projects
-    projectsTitle: "My Projects",
+    projectsTitle1: "My",
+    projectsTitle2:'Projects',
+    projectsSubTitle: "An immersion into my latest achievements, blending modern design with robust back-end logic.",
     viewProject: "View Project",
     viewGithub: "View on GitHub",
     viewWebsite: "Visit Website",
+    viewmore : "Show all projects",
+    viewless : "Show less",
+
+    //ProjectsDetails
+    projectDetailChallenge: "This project was designed with a strong focus on user experience and performance optimization. The architecture is built on modern technologies to ensure scalability and maintainability.",
+    backButton: "Go Back",
     
     // Contact
-    contactTitle: "Contact Me",
+    contactTitle1: "Speaking about your ",
+    contactTitle2: "Project",
     contactDescription: "Have a project in mind? Feel free to contact me to discuss it.",
     nameLabel: "Name",
     emailLabel: "Email",
@@ -107,7 +129,7 @@ export const translations = {
     emailPlace: "Your email",
     messagePlaceholder: "Your message",
 
-        // Footer
+    // Footer
     footerText: "EcmosDev",
     allRightsReserved: "All rights reserved.",
     
