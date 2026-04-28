@@ -17,7 +17,7 @@ export const projects: Project[] = [
       en: "QRLYZE is a SaaS platform for dynamic QR Code management. Create, customize, and track scans with real-time analytics (device types, timestamps). Features a Stripe-powered Premium tier for advanced designs, custom logos, and unlimited studio access."
     },
     image: qrlyzer_img,
-    technologies: ["React", "Flask", "Tailwind", "CSS", "MongoDB, Stripe"],
+    technologies: ["React", "Flask", "Tailwind", "CSS", "MongoDB", "Stripe"],
     websiteLink: "https://qr-code-generator-orcin-two.vercel.app/",
     githubLink: "https://github.com/Ecmosplasmidou/qr_code_generator",
   },
