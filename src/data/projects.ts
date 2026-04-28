@@ -3,10 +3,26 @@ import { Project } from '../types';
 import templierdrivre_img from '../img/frontpage_templier-driver.png'
 import driveLog_img from '../img/frontpage_drive_log.png'
 import evutech_img from '../img/Capture_evutech.png'
+import qrlyzer_img from '../img/QRlyzer.png'
 
 export const projects: Project[] = [
     {
     id: 1,
+    title: {
+      fr: "QRlyzer",
+      en: "QRlyzer"
+    },
+    description: {
+      fr: "QRLYZE est une application SaaS de gestion de QR Codes dynamiques. Elle permet de générer, personnaliser et suivre les scans en temps réel avec des analyses détaillées (appareils, dates). Le modèle inclut un abonnement Premium via Stripe, débloquant des designs avancés, des logos personnalisés et un accès illimité au studio de création.",
+      en: "QRLYZE is a SaaS platform for dynamic QR Code management. Create, customize, and track scans with real-time analytics (device types, timestamps). Features a Stripe-powered Premium tier for advanced designs, custom logos, and unlimited studio access."
+    },
+    image: qrlyzer_img,
+    technologies: ["React", "Flask", "Tailwind", "CSS", "MongoDB, Stripe"],
+    websiteLink: "https://qr-code-generator-orcin-two.vercel.app/",
+    githubLink: "https://github.com/Ecmosplasmidou/qr_code_generator",
+  },
+  {
+    id: 2,
     title: {
       fr: "E-vutech",
       en: "E-vutech"
@@ -21,7 +37,7 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Ecmosplasmidou/E-vutech",
   },
   {
-  id: 2,
+  id: 3,
   title: {
     fr: "Templier-driver",
     en: "Templier-driver"
@@ -36,7 +52,7 @@ export const projects: Project[] = [
   websiteLink: "https://www.templierdriver.com/"
   },
   {
-    id: 3,
+    id: 4,
     title: {
       fr: "Olympic Ticket Hub",
       en: "Olympic Ticket Hub"
@@ -50,7 +66,7 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Ecmosplasmidou/site_jo_finale",
   },
   {
-    id: 4,
+    id: 5,
     title: {
       fr: "PhotosShare",
       en: "PhotosShare"
@@ -65,7 +81,7 @@ export const projects: Project[] = [
     websiteLink: "https://snapphotoshare.netlify.app/"
   },
   {
-    id: 5,
+    id: 6,
     title: {
       fr: "Hafeze Cuisine",
       en: "Hafeze Cuisine"
@@ -79,7 +95,7 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Ecmosplasmidou/hafeze_cuisine",
   },
   {
-    id: 6,
+    id: 7,
     title: {
       fr: "Linkedin Scrapper",
       en: "Linkedin Scrapper"
@@ -93,7 +109,7 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Ecmosplasmidou/linkedin_scrapper/tree/main",
   },
   {
-  id: 7,
+  id: 8,
   title: {
     fr: "Xylecho",
     en: "Xylecho"
@@ -107,7 +123,7 @@ export const projects: Project[] = [
   websiteLink: "https://xylecho.com/"
   },
   {
-  id: 8,
+  id: 9,
   title: {
     fr: "Drive_log",
     en: "Drive_log"
